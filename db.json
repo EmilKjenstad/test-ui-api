@@ -1,14 +1,666 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "dashboard_eol" : {
+        "success_rate_cell" : [
+            { "cell": 1, "succ_rate": 79, "attempts": 4 },
+            { "cell": 2, "succ_rate": 52, "attempts": 9 },
+            { "cell": 3, "succ_rate": 66, "attempts": 2 },
+            { "cell": 4, "succ_rate": 90, "attempts": 7 },
+            { "cell": 5, "succ_rate": 43, "attempts": 6 }
+        ],
+        "TestCaseSuccessRate" : [
+            {"label": "Test 1", "value": 58},
+            {"label": "Test 2", "value": 76},
+            {"label": "Test 3", "value": 97},
+            {"label": "Test 4", "value": 44},
+            {"label": "Test 5", "value": 85},
+            {"label": "Test 6", "value": 63},
+            {"label": "Test 7", "value": 55},
+            {"label": "Test 8", "value": 83},
+            {"label": "Test 9", "value": 72},
+            {"label": "Test 10", "value": 91},
+            {"label": "Test 11", "value": 49},
+            {"label": "Test 12", "value": 69},
+            {"label": "Test 13", "value": 88},
+            {"label": "Test 14", "value": 47},
+            {"label": "Test 15", "value": 59},
+            {"label": "Test 16", "value": 98},
+            {"label": "Test 17", "value": 42},
+            {"label": "Test 18", "value": 64},
+            {"label": "Test 19", "value": 86},
+            {"label": "Test 20", "value": 53}
+        ],
+        "polar_data" : [
+            {"label": "BT", "value": 86},
+            {"label": "LS", "value": 94},
+            {"label": "Reglo", "value": 78},
+            {"label": "IPC", "value": 71}
+        ],
+        "bar_data" : [
+            {"label": "v0.18", "value": 72},
+            {"label": "v0.17", "value": 89},
+            {"label": "v0.16", "value": 96},
+            {"label": "v0.15", "value": 83},
+            {"label": "v0.14", "value": 75},
+            {"label": "v0.13", "value": 91}
+        ],
+        "widget_data" : {
+            "A" : [
+                {"date" : "January", "value": 65},
+                {"date" : "February", "value": 59},
+                {"date" : "March", "value": 84},
+                {"date" : "April", "value": 84},
+                {"date" : "May", "value": 51},
+                {"date" : "June", "value": 55},
+                {"date" : "July", "value": 40}
+            ],
+            "B" : [
+                {"date" : "January", "value": 78},
+                {"date" : "February", "value": 65},
+                {"date" : "March", "value": 93},
+                {"date" : "April", "value": 82},
+                {"date" : "May", "value": 56},
+                {"date" : "June", "value": 72},
+                {"date" : "July", "value": 89}
+            ],
+            "C" : [
+                {"date" : "January", "value": 53},
+                {"date" : "February", "value": 91},
+                {"date" : "March", "value": 68},
+                {"date" : "April", "value": 74},
+                {"date" : "May", "value": 61},
+                {"date" : "June", "value": 97},
+                {"date" : "July", "value": 85}
+            ]
+        }
+    },
+    "dashboard_production" : {
+        "widget_data" : {
+            "A" : [
+                {"date" : "January", "value": 65},
+                {"date" : "February", "value": 59},
+                {"date" : "March", "value": 84},
+                {"date" : "April", "value": 84},
+                {"date" : "May", "value": 51},
+                {"date" : "June", "value": 55},
+                {"date" : "July", "value": 40}
+            ],
+            "B" : [
+                {"date" : "January", "value": 78},
+                {"date" : "February", "value": 65},
+                {"date" : "March", "value": 93},
+                {"date" : "April", "value": 82},
+                {"date" : "May", "value": 56},
+                {"date" : "June", "value": 72},
+                {"date" : "July", "value": 89}
+            ],
+            "C" : [
+                {"date" : "January", "value": 53},
+                {"date" : "February", "value": 91},
+                {"date" : "March", "value": 68},
+                {"date" : "April", "value": 74},
+                {"date" : "May", "value": 61},
+                {"date" : "June", "value": 97},
+                {"date" : "July", "value": 85}
+            ],
+            "D" : [
+                {"date" : "January", "value": 67},
+                {"date" : "February", "value": 54},
+                {"date" : "March", "value": 88},
+                {"date" : "April", "value": 75},
+                {"date" : "May", "value": 96},
+                {"date" : "June", "value": 64},
+                {"date" : "July", "value": 94}
+            ]
+        },
+        "period_production" : {
+            "today": {"Reglo": 2, "B/T": 1, "IPC":5, "LS/IP": 7 },
+            "lastSeven": {"Reglo": 16, "B/T": 4, "IPC": 7, "LS/IP": 15},
+            "lastThirty": {"Reglo": 72, "B/T": 19, "IPC": 14, "LS/IP": 96},
+            "ytd": {"Reglo": 70, "B/T": 86, "IPC": 99, "LS/IP": 159}
+        },
+        "time_series" : {
+            "data_ytd" : [
+                {
+                    "label": "Reglo",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "January", "y": 12 },
+                        {"x" : "February", "y": 42 },
+                        {"x" : "March", "y": 35 },
+                        {"x" : "April", "y": 64 },
+                        {"x" : "May", "y": 21 },
+                        {"x" : "June", "y": 53 },
+                        {"x" : "July", "y": 23 }
+                    ]
+                },
+                {
+                    "label": "BT",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "January", "y": 42 },
+                        {"x" : "February", "y": 35 },
+                        {"x" : "March", "y": 64 },
+                        {"x" : "April", "y": 43 },
+                        {"x" : "May", "y": 23 },
+                        {"x" : "June", "y": 11 },
+                        {"x" : "July", "y": 44 }
+                    ]
+                },
+                {
+                    "label": "LS",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "January", "y": 24 },
+                        {"x" : "February", "y": 53 },
+                        {"x" : "March", "y": 64 },
+                        {"x" : "April", "y": 34 },
+                        {"x" : "May", "y": 64 },
+                        {"x" : "June", "y": 75 },
+                        {"x" : "July", "y": 45 }
+                    ]
+                },
+                {
+                    "label": "IPC",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "January", "y": 23 },
+                        {"x" : "February", "y": 12 },
+                        {"x" : "March", "y": 43 },
+                        {"x" : "April", "y": 53 },
+                        {"x" : "May", "y": 23 },
+                        {"x" : "June", "y": 53 },
+                        {"x" : "July", "y": 24 }
+                    ]
+                }
+            ],
+            "data_30" : [
+                {
+                    "label": "Reglo",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "May 13", "y": 25},
+                        {"x" : "May 14", "y": 63},
+                        {"x" : "May 15", "y": 43},
+                        {"x" : "May 16", "y": 35},
+                        {"x" : "May 17", "y": 46},
+                        {"x" : "May 18", "y": 43},
+                        {"x" : "May 19", "y": 23},
+                        {"x" : "May 20", "y": 12},
+                        {"x" : "May 21", "y": 53},
+                        {"x" : "May 22", "y": 64},
+                        {"x" : "May 23", "y": 34},
+                        {"x" : "May 24", "y": 21},
+                        {"x" : "May 25", "y": 34},
+                        {"x" : "May 26", "y": 64},
+                        {"x" : "May 27", "y": 57},
+                        {"x" : "May 28", "y": 34},
+                        {"x" : "May 29", "y": 42},
+                        {"x" : "May 30", "y": 45},
+                        {"x" : "May 31", "y": 64},
+                        {"x" : "June 1", "y": 75},
+                        {"x" : "June 2", "y": 45},
+                        {"x" : "June 3", "y": 56},
+                        {"x" : "June 4", "y": 75},
+                        {"x" : "June 5", "y": 45},
+                        {"x" : "June 6", "y": 23},
+                        {"x" : "June 7", "y": 43},
+                        {"x" : "June 8", "y": 64},
+                        {"x" : "June 9", "y": 57},
+                        {"x" : "June 10", "y": 56},
+                        {"x" : "June 11", "y": 75}
+                    ]
+                },
+                {
+                    "label": "BT",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "May 13", "y": 43},
+                        {"x" : "May 14", "y": 46},
+                        {"x" : "May 15", "y": 75},
+                        {"x" : "May 16", "y": 34},
+                        {"x" : "May 17", "y": 54},
+                        {"x" : "May 18", "y": 75},
+                        {"x" : "May 19", "y": 68},
+                        {"x" : "May 20", "y": 54},
+                        {"x" : "May 21", "y": 34},
+                        {"x" : "May 22", "y": 64},
+                        {"x" : "May 23", "y": 43},
+                        {"x" : "May 24", "y": 43},
+                        {"x" : "May 25", "y": 23},
+                        {"x" : "May 26", "y": 64},
+                        {"x" : "May 27", "y": 75},
+                        {"x" : "May 28", "y": 34},
+                        {"x" : "May 29", "y": 23},
+                        {"x" : "May 30", "y": 32},
+                        {"x" : "May 31", "y": 66},
+                        {"x" : "June 1", "y": 34},
+                        {"x" : "June 2", "y": 43},
+                        {"x" : "June 3", "y": 64},
+                        {"x" : "June 4", "y": 57},
+                        {"x" : "June 5", "y": 77},
+                        {"x" : "June 6", "y": 56},
+                        {"x" : "June 7", "y": 43},
+                        {"x" : "June 8", "y": 23},
+                        {"x" : "June 9", "y": 53},
+                        {"x" : "June 10", "y": 64},
+                        {"x" : "June 11", "y": 54}
+                    ]
+                },
+                {
+                    "label": "LS",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "May 13", "y": 53},
+                        {"x" : "May 14", "y": 54},
+                        {"x" : "May 15", "y": 76},
+                        {"x" : "May 16", "y": 45},
+                        {"x" : "May 17", "y": 23},
+                        {"x" : "May 18", "y": 87},
+                        {"x" : "May 19", "y": 54},
+                        {"x" : "May 20", "y": 23},
+                        {"x" : "May 21", "y": 54},
+                        {"x" : "May 22", "y": 76},
+                        {"x" : "May 23", "y": 76},
+                        {"x" : "May 24", "y": 23},
+                        {"x" : "May 25", "y": 54},
+                        {"x" : "May 26", "y": 75},
+                        {"x" : "May 27", "y": 67},
+                        {"x" : "May 28", "y": 53},
+                        {"x" : "May 29", "y": 45},
+                        {"x" : "May 30", "y": 23},
+                        {"x" : "May 31", "y": 75},
+                        {"x" : "June 1", "y": 87},
+                        {"x" : "June 2", "y": 67},
+                        {"x" : "June 3", "y": 45},
+                        {"x" : "June 4", "y": 23},
+                        {"x" : "June 5", "y": 65},
+                        {"x" : "June 6", "y": 75},
+                        {"x" : "June 7", "y": 56},
+                        {"x" : "June 8", "y": 34},
+                        {"x" : "June 9", "y": 23},
+                        {"x" : "June 10", "y": 64},
+                        {"x" : "June 11", "y": 76}
+                    ]
+                },
+                {
+                    "label": "IPC",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "May 13", "y": 52},
+                        {"x" : "May 14", "y": 23},
+                        {"x" : "May 15", "y": 34},
+                        {"x" : "May 16", "y": 54},
+                        {"x" : "May 17", "y": 42},
+                        {"x" : "May 18", "y": 64},
+                        {"x" : "May 19", "y": 45},
+                        {"x" : "May 20", "y": 86},
+                        {"x" : "May 21", "y": 23},
+                        {"x" : "May 22", "y": 86},
+                        {"x" : "May 23", "y": 45},
+                        {"x" : "May 24", "y": 23},
+                        {"x" : "May 25", "y": 64},
+                        {"x" : "May 26", "y": 86},
+                        {"x" : "May 27", "y": 43},
+                        {"x" : "May 28", "y": 23},
+                        {"x" : "May 29", "y": 86},
+                        {"x" : "May 30", "y": 23},
+                        {"x" : "May 31", "y": 66},
+                        {"x" : "June 1", "y": 43},
+                        {"x" : "June 2", "y": 23},
+                        {"x" : "June 3", "y": 64},
+                        {"x" : "June 4", "y": 36},
+                        {"x" : "June 5", "y": 52},
+                        {"x" : "June 6", "y": 85},
+                        {"x" : "June 7", "y": 23},
+                        {"x" : "June 8", "y": 25},
+                        {"x" : "June 9", "y": 64},
+                        {"x" : "June 10", "y": 23},
+                        {"x" : "June 11", "y": 53}
+                    ]
+                }
+            ],
+            "data_7" : [
+                {
+                    "label": "Reglo",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "June 5", "y": 55},
+                        {"x" : "June 6", "y": 23},
+                        {"x" : "June 7", "y": 64},
+                        {"x" : "June 8", "y": 52},
+                        {"x" : "June 9", "y": 75},
+                        {"x" : "June 10", "y": 53},
+                        {"x" : "June 11", "y": 23}
+                    ]
+                },
+                {
+                    "label": "BT",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "June 5", "y": 12},
+                        {"x" : "June 6", "y": 52},
+                        {"x" : "June 7", "y": 13},
+                        {"x" : "June 8", "y": 23},
+                        {"x" : "June 9", "y": 43},
+                        {"x" : "June 10", "y": 53},
+                        {"x" : "June 11", "y": 62}
+                    ]
+                },
+                {
+                    "label": "LS",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "June 5", "y": 23},
+                        {"x" : "June 6", "y": 42},
+                        {"x" : "June 7", "y": 64},
+                        {"x" : "June 8", "y": 68},
+                        {"x" : "June 9", "y": 97},
+                        {"x" : "June 10", "y": 34},
+                        {"x" : "June 11", "y": 41}
+                    ]
+                },
+                {
+                    "label": "IPC",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "June 5", "y": 35},
+                        {"x" : "June 6", "y": 64},
+                        {"x" : "June 7", "y": 75},
+                        {"x" : "June 8", "y": 46},
+                        {"x" : "June 9", "y": 23},
+                        {"x" : "June 10", "y": 52},
+                        {"x" : "June 11", "y": 12}
+                    ]
+                }
+            ],
+            "data_24": [
+                {
+                    "label": "Reglo",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "11:00 AM", "y": 52 },
+                        {"x" : "12:00 AM", "y": 35 },
+                        {"x" : "1:00 PM", "y": 64 },
+                        {"x" : "2:00 PM", "y": 75 },
+                        {"x" : "3:00 PM", "y": 56 },
+                        {"x" : "4:00 PM", "y": 86 },
+                        {"x" : "5:00 PM", "y": 34 },
+                        {"x" : "6:00 PM", "y": 0 },
+                        {"x" : "7:00 PM", "y": 0 },
+                        {"x" : "8:00 PM", "y": 0 },
+                        {"x" : "9:00 PM", "y": 0 },
+                        {"x" : "10:00 PM", "y": 0 },
+                        {"x" : "11:00 PM", "y": 0 },
+                        {"x" : "12:00 PM", "y": 0 },
+                        {"x" : "1:00 AM", "y": 0 },
+                        {"x" : "2:00 AM", "y": 0 },
+                        {"x" : "3:00 AM", "y": 0 },
+                        {"x" : "4:00 AM", "y": 0 },
+                        {"x" : "5:00 AM", "y": 0 },
+                        {"x" : "6:00 AM", "y": 0 },
+                        {"x" : "7:00 AM", "y": 98 },
+                        {"x" : "8:00 AM", "y": 34 },
+                        {"x" : "9:00 AM", "y": 55 },
+                        {"x" : "10:00 AM", "y": 22 }
+                    ]
+                },
+                {
+                    "label": "BT",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "11:00 AM", "y": 23 },
+                        {"x" : "12:00 AM", "y": 53 },
+                        {"x" : "1:00 PM", "y": 64 },
+                        {"x" : "2:00 PM", "y": 45 },
+                        {"x" : "3:00 PM", "y": 76 },
+                        {"x" : "4:00 PM", "y": 45 },
+                        {"x" : "5:00 PM", "y": 86 },
+                        {"x" : "6:00 PM", "y": 0 },
+                        {"x" : "7:00 PM", "y": 0 },
+                        {"x" : "8:00 PM", "y": 0 },
+                        {"x" : "9:00 PM", "y": 0 },
+                        {"x" : "10:00 PM", "y": 0 },
+                        {"x" : "11:00 PM", "y": 0 },
+                        {"x" : "12:00 PM", "y": 0 },
+                        {"x" : "1:00 AM", "y": 0 },
+                        {"x" : "2:00 AM", "y": 0 },
+                        {"x" : "3:00 AM", "y": 0 },
+                        {"x" : "4:00 AM", "y": 0 },
+                        {"x" : "5:00 AM", "y": 0 },
+                        {"x" : "6:00 AM", "y": 0 },
+                        {"x" : "7:00 AM", "y": 63 },
+                        {"x" : "8:00 AM", "y": 75 },
+                        {"x" : "9:00 AM", "y": 34 },
+                        {"x" : "10:00 AM", "y": 22 }
+                    ]
+                },
+                {
+                    "label": "LS",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "11:00 AM", "y": 63 },
+                        {"x" : "12:00 AM", "y": 23 },
+                        {"x" : "1:00 PM", "y": 43 },
+                        {"x" : "2:00 PM", "y": 64 },
+                        {"x" : "3:00 PM", "y": 57 },
+                        {"x" : "4:00 PM", "y": 34 },
+                        {"x" : "5:00 PM", "y": 23 },
+                        {"x" : "6:00 PM", "y": 0 },
+                        {"x" : "7:00 PM", "y": 0 },
+                        {"x" : "8:00 PM", "y": 0 },
+                        {"x" : "9:00 PM", "y": 0 },
+                        {"x" : "10:00 PM", "y": 0 },
+                        {"x" : "11:00 PM", "y": 0 },
+                        {"x" : "12:00 PM", "y": 0 },
+                        {"x" : "1:00 AM", "y": 0 },
+                        {"x" : "2:00 AM", "y": 0 },
+                        {"x" : "3:00 AM", "y": 0 },
+                        {"x" : "4:00 AM", "y": 0 },
+                        {"x" : "5:00 AM", "y": 0 },
+                        {"x" : "6:00 AM", "y": 0 },
+                        {"x" : "7:00 AM", "y": 79 },
+                        {"x" : "8:00 AM", "y": 80 },
+                        {"x" : "9:00 AM", "y": 64 },
+                        {"x" : "10:00 AM", "y": 23 }
+                    ]
+                },
+                {
+                    "label": "IPC",
+                    "borderWidth": 2,
+                    "data": [
+                        {"x" : "11:00 AM", "y": 23 },
+                        {"x" : "12:00 AM", "y": 53 },
+                        {"x" : "1:00 PM", "y": 64 },
+                        {"x" : "2:00 PM", "y": 64 },
+                        {"x" : "3:00 PM", "y": 23 },
+                        {"x" : "4:00 PM", "y": 64 },
+                        {"x" : "5:00 PM", "y": 75 },
+                        {"x" : "6:00 PM", "y": 0 },
+                        {"x" : "7:00 PM", "y": 0 },
+                        {"x" : "8:00 PM", "y": 0 },
+                        {"x" : "9:00 PM", "y": 0 },
+                        {"x" : "10:00 PM", "y": 0 },
+                        {"x" : "11:00 PM", "y": 0 },
+                        {"x" : "12:00 PM", "y": 0 },
+                        {"x" : "1:00 AM", "y": 0 },
+                        {"x" : "2:00 AM", "y": 0 },
+                        {"x" : "3:00 AM", "y": 0 },
+                        {"x" : "4:00 AM", "y": 0 },
+                        {"x" : "5:00 AM", "y": 0 },
+                        {"x" : "6:00 AM", "y": 0 },
+                        {"x" : "7:00 AM", "y": 32 },
+                        {"x" : "8:00 AM", "y": 25 },
+                        {"x" : "9:00 AM", "y": 64 },
+                        {"x" : "10:00 AM", "y": 75 }
+                    ]
+                }
+            ]
+        }
+    },
+    "dashboard_sales" : {
+        "sales_table" : [
+            {
+            "country": { "name": "United States", "flag": "cifUs" },
+            "usage": {
+                "value": 38,
+                "period": "Jun 11, 2023 - Jul 10, 2023"
+            },
+            "sales" : 380,
+            "value" : 3800
+            },
+            {
+            "country": { "name": "Norway", "flag": "cifNo" },
+            "usage": {
+                "value": 23,
+                "period": "Jun 11, 2023 - Jul 10, 2023"
+            },
+            "sales" : 230,
+            "value" : 2300
+            },
+            {
+            "country": { "name": "India", "flag": "cifIn" },
+            "usage": {
+                "value": 17,
+                "period": "Jun 11, 2023 - Jul 10, 2023"
+            },
+            "sales" : 170,
+            "value" : 1700
+            },
+            {
+            "country": { "name": "France", "flag": "cifFr" },
+            "usage": {
+                "value": 12,
+                "period": "Jun 11, 2023 - Jul 10, 2023"
+            },
+            "sales" : 120,
+            "value" : 1200
+            },
+            {
+            "country": { "name": "Spain", "flag": "cifEs" },
+            "usage": {
+                "value": 7,
+                "period": "Jun 11, 2023 - Jul 10, 2023"
+            },
+            "sales" : 70,
+            "value" : 700
+            },
+            {
+            "country": { "name": "Rest of the World", "flag": "cilGlobeAlt" },
+            "usage": {
+                "value": 3,
+                "period": "Jun 11, 2023 - Jul 10, 2023"
+            },
+            "sales" : 30,
+            "value" : 300
+            }
+        ],
+        "progressExample" : {
+            "Reglo" : 50,
+            "IPC" : 73,
+            "B/T" : 90,
+            "LS/IP" : 60
+        },
+        "income" : [
+            {"month": "July", "value" : 1566},
+            {"month": "August", "value" : 4623},
+            {"month": "September", "value" : 1264},
+            {"month": "October", "value" : 3464},
+            {"month": "November", "value" : 6886},
+            {"month": "December", "value" : 2335},
+            {"month": "January", "value" : 1242},
+            {"month": "February", "value" : 1542},
+            {"month": "March", "value" : 1564},
+            {"month": "April", "value" : 1263},
+            {"month": "May", "value" : 2335},
+            {"month": "June", "value" : 6432}
+        ]
+    },
+    "dashboard_ota" : {
+        "pump_version_data" : [
+            {
+                "label": "Reglo",
+                "data": [
+                    { "x": "v2.25", "y": 20 },
+                    { "x": "v2.24", "y": 20 },
+                    { "x": "v2.23", "y": 20 },
+                    { "x": "v2.22", "y": 20 },
+                    { "x": "v2.21", "y": 20 },
+                    { "x": "v2.20", "y": 20 },
+                    { "x": "v2.19", "y": 20 }
+                ]
+            },
+            {
+                "label": "IPC",
+                "data": [
+                    { "x": "v2.25", "y": 15 },
+                    { "x": "v2.24", "y": 15 },
+                    { "x": "v2.23", "y": 15 },
+                    { "x": "v2.22", "y": 15 },
+                    { "x": "v2.21", "y": 15 },
+                    { "x": "v2.20", "y": 15 },
+                    { "x": "v2.19", "y": 15 }
+                ]
+            },
+            {
+                "label": "LS/IP",
+                "data": [
+                    { "x": "v2.25", "y": 10 },
+                    { "x": "v2.24", "y": 10 },
+                    { "x": "v2.23", "y": 10 },
+                    { "x": "v2.22", "y": 10 },
+                    { "x": "v2.21", "y": 10 },
+                    { "x": "v2.20", "y": 10 },
+                    { "x": "v2.19", "y": 10 }
+                ]
+            },
+            {
+                "label": "B/T",
+                "data": [
+                    { "x": "v2.25", "y": 25 },
+                    { "x": "v2.24", "y": 25 },
+                    { "x": "v2.23", "y": 25 },
+                    { "x": "v2.22", "y": 25 },
+                    { "x": "v2.21", "y": 25 },
+                    { "x": "v2.20", "y": 25 },
+                    { "x": "v2.19", "y": 25 }
+                ]
+            }
+        ],
+        "software_downloads" : [
+            { "label": "v2.25", "downloads": 18 },
+            { "label": "v2.24", "downloads": 13 },
+            { "label": "v2.23", "downloads": 9 },
+            { "label": "v2.22", "downloads": 5 },
+            { "label": "v2.21", "downloads":4 }
+        ],
+        "downloads_year" : [
+            {"month": "July", "value" : 1566},
+            {"month": "August", "value" : 4623},
+            {"month": "September", "value" : 1264},
+            {"month": "October", "value" : 3464},
+            {"month": "November", "value" : 6886},
+            {"month": "December", "value" : 2335},
+            {"month": "January", "value" : 1242},
+            {"month": "February", "value" : 1542},
+            {"month": "March", "value" : 1564},
+            {"month": "April", "value" : 1263},
+            {"month": "May", "value" : 2335},
+            {"month": "June", "value" : 6432}
+        ]
+    },
+    "dashboard_general" : {
+        "software_downloads" : [
+            { "label": "v2.25", "downloads": 18 },
+            { "label": "v2.24", "downloads": 13 },
+            { "label": "v2.23", "downloads": 9 },
+            { "label": "v2.22", "downloads": 5 },
+            { "label": "v2.21", "downloads":4 }
+        ],
+        "period_production" : {
+            "today": {"Reglo": 2, "B/T": 1, "IPC":5, "LS/IP": 7 },
+            "lastSeven": {"Reglo": 16, "B/T": 4, "IPC": 7, "LS/IP": 15},
+            "lastThirty": {"Reglo": 72, "B/T": 19, "IPC": 14, "LS/IP": 96},
+            "ytd": {"Reglo": 70, "B/T": 86, "IPC": 99, "LS/IP": 159}
+        }
+    }
 }
