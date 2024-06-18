@@ -208,11 +208,11 @@
             { "v": "v2.22", "downloads": 5 },
             { "v": "v2.21", "downloads":4 }
         ],
-        "period_production": {
-            "today": {"Reglo": 2, "B/T": 1, "IPC":5, "LS/IP": 7 },
-            "lastSeven": {"Reglo": 16, "B/T": 4, "IPC": 7, "LS/IP": 15},
-            "lastThirty": {"Reglo": 72, "B/T": 19, "IPC": 14, "LS/IP": 96},
-            "ytd": {"Reglo": 70, "B/T": 86, "IPC": 99, "LS/IP": 159}
-        }
+        "period_production": [
+            {"label":"Today", "data":[{"pump":"Reglo", "value":1},{"pump":"B/T", "value":8},{"pump":"IPC", "value":24},{"pump":"LS/IP", "value":54}]},
+            {"label":"Last 7 Days", "data":[{"pump":"Reglo", "value":6},{"pump":"B/T", "value":1},{"pump":"IPC", "value":53},{"pump":"LS/IP", "value":55}]},
+            {"label":"Last 30 Days", "data":[{"pump":"Reglo", "value":2},{"pump":"B/T", "value":2},{"pump":"IPC", "value":23},{"pump":"LS/IP", "value":76}]},
+            {"label":"Year to Date", "data":[{"pump":"Reglo", "value":7},{"pump":"B/T", "value":7},{"pump":"IPC", "value":12},{"pump":"LS/IP", "value":56}]}
+        ]
     }
 }
