@@ -43,35 +43,11 @@
             {"label": "v0.14", "value": 75},
             {"label": "v0.13", "value": 91}
         ],
-        "widget_data": {
-            "A": [
-                {"m": "January", "value": 65},
-                {"m": "February", "value": 59},
-                {"m": "March", "value": 84},
-                {"m": "April", "value": 84},
-                {"m": "May", "value": 51},
-                {"m": "June", "value": 55},
-                {"m": "July", "value": 40}
-            ],
-            "B": [
-                {"m": "January", "value": 78},
-                {"m": "February", "value": 65},
-                {"m": "March", "value": 93},
-                {"m": "April", "value": 82},
-                {"m": "May", "value": 56},
-                {"m": "June", "value": 72},
-                {"m": "July", "value": 89}
-            ],
-            "C": [
-                {"m": "January", "value": 53},
-                {"m": "February", "value": 91},
-                {"m": "March", "value": 68},
-                {"m": "April", "value": 74},
-                {"m": "May", "value": 61},
-                {"m": "June", "value": 97},
-                {"m": "July", "value": 85}
-            ]
-        }
+        "widget_data": [
+            {"label":"Pumps Tested", "data":[{"m": "January", "value": 65},{"m": "February", "value": 59},{"m": "March", "value": 84},{"m": "April", "value": 84},{"m": "May", "value": 51},{"m": "June", "value": 55},{"m": "July", "value": 40}]},
+            {"label":"Successful Tests", "data":[{"m": "January", "value": 78},{"m": "February", "value": 65},{"m": "March", "value": 93},{"m": "April", "value": 82},{"m": "May", "value": 56},{"m": "June", "value": 72},{"m": "July", "value": 89}]},
+            {"label":"Failed Tests", "data":[{"m": "January", "value": 53},{"m": "February", "value": 91},{"m": "March", "value": 68},{"m": "April", "value": 74},{"m": "May", "value": 61},{"m": "June", "value": 97},{"m": "July", "value": 85}]}
+        ]
     },
     "dashboard_sales": {
         "sales_table": [
