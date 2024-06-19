@@ -1,12 +1,6 @@
 {
     "dashboard_eol": {
-        "success_rate_cell": [
-            { "cell": 1, "succ_rate": 79, "attempts": 4 },
-            { "cell": 2, "succ_rate": 52, "attempts": 9 },
-            { "cell": 3, "succ_rate": 66, "attempts": 2 },
-            { "cell": 4, "succ_rate": 90, "attempts": 7 },
-            { "cell": 5, "succ_rate": 43, "attempts": 6 }
-        ],
+        "success_rate_cell": [{ "cell": 1, "succ_rate": 79, "attempts": 4 },{ "cell": 2, "succ_rate": 52, "attempts": 9 },{ "cell": 3, "succ_rate": 66, "attempts": 2 },{ "cell": 4, "succ_rate": 90, "attempts": 7 },{ "cell": 5, "succ_rate": 43, "attempts": 6 }],
         "TestCaseSuccessRate": [
             {"label": "Test 1", "value": 58},
             {"label": "Test 2", "value": 76},
@@ -29,20 +23,8 @@
             {"label": "Test 19", "value": 86},
             {"label": "Test 20", "value": 53}
         ],
-        "polar_data": [
-            {"label": "BT", "value": 86},
-            {"label": "LS", "value": 94},
-            {"label": "Reglo", "value": 78},
-            {"label": "IPC", "value": 71}
-        ],
-        "bar_data": [
-            {"label": "v0.18", "value": 72},
-            {"label": "v0.17", "value": 89},
-            {"label": "v0.16", "value": 96},
-            {"label": "v0.15", "value": 83},
-            {"label": "v0.14", "value": 75},
-            {"label": "v0.13", "value": 91}
-        ],
+        "polar_data": [{"label": "BT", "value": 86},{"label": "LS", "value": 94},{"label": "Reglo", "value": 78},{"label": "IPC", "value": 71}],
+        "bar_data": [{"label": "v0.18", "value": 72},{"label": "v0.17", "value": 89},{"label": "v0.16", "value": 96},{"label": "v0.15", "value": 83},{"label": "v0.14", "value": 75},{"label": "v0.13", "value": 91}],
         "widget_data": [
             {"label":"Pumps Tested", "data":[{"m": "January", "value": 65},{"m": "February", "value": 59},{"m": "March", "value": 84},{"m": "April", "value": 84},{"m": "May", "value": 51},{"m": "June", "value": 55},{"m": "July", "value": 40}]},
             {"label":"Successful Tests", "data":[{"m": "January", "value": 78},{"m": "February", "value": 65},{"m": "March", "value": 93},{"m": "April", "value": 82},{"m": "May", "value": 56},{"m": "June", "value": 72},{"m": "July", "value": 89}]},
@@ -53,65 +35,42 @@
         "sales_table": [
             {
             "country": { "name": "United States", "flag": "cifUs" },
-            "usage": {
-                "value": 38,
-                "period": "Jun 11, 2023 - Jul 10, 2023"
-            },
+            "usage": {"value": 38,"period": "Jun 11, 2023 - Jul 10, 2023"},
             "sales": 380,
             "value": 3800
             },
             {
             "country": { "name": "Norway", "flag": "cifNo" },
-            "usage": {
-                "value": 23,
-                "period": "Jun 11, 2023 - Jul 10, 2023"
-            },
+            "usage": {"value": 23,"period": "Jun 11, 2023 - Jul 10, 2023"},
             "sales": 230,
             "value": 2300
             },
             {
             "country": { "name": "India", "flag": "cifIn" },
-            "usage": {
-                "value": 17,
-                "period": "Jun 11, 2023 - Jul 10, 2023"
-            },
+            "usage": {"value": 17,"period": "Jun 11, 2023 - Jul 10, 2023"},
             "sales": 170,
             "value": 1700
             },
             {
             "country": { "name": "France", "flag": "cifFr" },
-            "usage": {
-                "value": 12,
-                "period": "Jun 11, 2023 - Jul 10, 2023"
-            },
+            "usage": {"value": 12,"period": "Jun 11, 2023 - Jul 10, 2023"},
             "sales": 120,
             "value": 1200
             },
             {
             "country": { "name": "Spain", "flag": "cifEs" },
-            "usage": {
-                "value": 7,
-                "period": "Jun 11, 2023 - Jul 10, 2023"
-            },
+            "usage": {"value": 7,"period": "Jun 11, 2023 - Jul 10, 2023"},
             "sales": 70,
             "value": 700
             },
             {
             "country": { "name": "Rest of the World", "flag": "cilGlobeAlt" },
-            "usage": {
-                "value": 3,
-                "period": "Jun 11, 2023 - Jul 10, 2023"
-            },
+            "usage": {"value": 3,"period": "Jun 11, 2023 - Jul 10, 2023"},
             "sales": 30,
             "value": 300
             }
         ],
-        "progressExample": {
-            "Reglo": 50,
-            "IPC": 73,
-            "B/T": 90,
-            "LS/IP": 60
-        },
+        "progressExample": {"Reglo": 50,"IPC": 73,"B/T": 90,"LS/IP": 60},
         "income": [
             {"m": "July", "value": 1566},
             {"m": "August", "value": 4623},
@@ -131,83 +90,29 @@
         "pump_version_data": [
             {
                 "label": "Reglo",
-                "data": [
-                    { "x": "v2.25", "y": 20 },
-                    { "x": "v2.24", "y": 20 },
-                    { "x": "v2.23", "y": 20 },
-                    { "x": "v2.22", "y": 20 },
-                    { "x": "v2.21", "y": 20 },
-                    { "x": "v2.20", "y": 20 },
-                    { "x": "v2.19", "y": 20 }
-                ]
+                "data": [{ "x": "v2.25", "y": 20 },{ "x": "v2.24", "y": 20 },{ "x": "v2.23", "y": 20 },{ "x": "v2.22", "y": 20 },{ "x": "v2.21", "y": 20 },{ "x": "v2.20", "y": 20 },{ "x": "v2.19", "y": 20 }]
             },
             {
                 "label": "IPC",
-                "data": [
-                    { "x": "v2.25", "y": 15 },
-                    { "x": "v2.24", "y": 15 },
-                    { "x": "v2.23", "y": 15 },
-                    { "x": "v2.22", "y": 15 },
-                    { "x": "v2.21", "y": 15 },
-                    { "x": "v2.20", "y": 15 },
-                    { "x": "v2.19", "y": 15 }
-                ]
+                "data": [{ "x": "v2.25", "y": 15 },{ "x": "v2.24", "y": 15 },{ "x": "v2.23", "y": 15 },{ "x": "v2.22", "y": 15 },{ "x": "v2.21", "y": 15 },{ "x": "v2.20", "y": 15 },{ "x": "v2.19", "y": 15 }]
             },
             {
                 "label": "LS/IP",
                 "data": [
-                    { "x": "v2.25", "y": 10 },
-                    { "x": "v2.24", "y": 10 },
-                    { "x": "v2.23", "y": 10 },
-                    { "x": "v2.22", "y": 10 },
-                    { "x": "v2.21", "y": 10 },
-                    { "x": "v2.20", "y": 10 },
-                    { "x": "v2.19", "y": 10 }
-                ]
+                    { "x": "v2.25", "y": 10 },{ "x": "v2.24", "y": 10 },{ "x": "v2.23", "y": 10 },{ "x": "v2.22", "y": 10 },{ "x": "v2.21", "y": 10 },{ "x": "v2.20", "y": 10 },{ "x": "v2.19", "y": 10 }]
             },
             {
                 "label": "B/T",
-                "data": [
-                    { "x": "v2.25", "y": 25 },
-                    { "x": "v2.24", "y": 25 },
-                    { "x": "v2.23", "y": 25 },
-                    { "x": "v2.22", "y": 25 },
-                    { "x": "v2.21", "y": 25 },
-                    { "x": "v2.20", "y": 25 },
-                    { "x": "v2.19", "y": 25 }
-                ]
+                "data": [{ "x": "v2.25", "y": 25 },{ "x": "v2.24", "y": 25 },{ "x": "v2.23", "y": 25 },{ "x": "v2.22", "y": 25 },{ "x": "v2.21", "y": 25 },{ "x": "v2.20", "y": 25 },{ "x": "v2.19", "y": 25 }]
             }
         ],
         "software_downloads": [
-            { "v": "v2.25", "downloads": 18 },
-            { "v": "v2.24", "downloads": 13 },
-            { "v": "v2.23", "downloads": 9 },
-            { "v": "v2.22", "downloads": 5 },
-            { "v": "v2.21", "downloads":4 }
+            { "v": "v2.25", "downloads": 18 },{ "v": "v2.24", "downloads": 13 },{ "v": "v2.23", "downloads": 9 },{ "v": "v2.22", "downloads": 5 },{ "v": "v2.21", "downloads":4 }
         ],
-        "downloads_year": [
-            {"m": "July", "value": 1566},
-            {"m": "August", "value": 4623},
-            {"m": "September", "value": 1264},
-            {"m": "October", "value": 3464},
-            {"m": "November", "value": 6886},
-            {"m": "December", "value": 2335},
-            {"m": "January", "value": 1242},
-            {"m": "February", "value": 1542},
-            {"m": "March", "value": 1564},
-            {"m": "April", "value": 1263},
-            {"m": "May", "value": 2335},
-            {"m": "June", "value": 6432}
-        ]
+        "downloads_year": [{"m": "July", "value": 1566},{"m": "August", "value": 4623},{"m": "September", "value": 1264},{"m": "October", "value": 3464},{"m": "November", "value": 6886},{"m": "December", "value": 2335},{"m": "January", "value": 1242},{"m": "February", "value": 1542},{"m": "March", "value": 1564},{"m": "April", "value": 1263},{"m": "May", "value": 2335},{"m": "June", "value": 6432}]
     },
     "dashboard_general": {
-        "software_downloads": [
-            { "v": "v2.25", "downloads": 18 },
-            { "v": "v2.24", "downloads": 13 },
-            { "v": "v2.23", "downloads": 9 },
-            { "v": "v2.22", "downloads": 5 },
-            { "v": "v2.21", "downloads":4 }
-        ],
+        "software_downloads": [{ "v": "v2.25", "downloads": 18 },{ "v": "v2.24", "downloads": 13 },{ "v": "v2.23", "downloads": 9 },{ "v": "v2.22", "downloads": 5 },{ "v": "v2.21", "downloads":4 }],
         "period_production": [
             {"label":"Today", "data":[{"pump":"Reglo", "value":1},{"pump":"B/T", "value":8},{"pump":"IPC", "value":24},{"pump":"LS/IP", "value":54}]},
             {"label":"Last 7 Days", "data":[{"pump":"Reglo", "value":6},{"pump":"B/T", "value":1},{"pump":"IPC", "value":53},{"pump":"LS/IP", "value":55}]},
