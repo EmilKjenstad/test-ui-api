@@ -213,6 +213,22 @@
             {"label":"Last 7 Days", "data":[{"pump":"Reglo", "value":6},{"pump":"B/T", "value":1},{"pump":"IPC", "value":53},{"pump":"LS/IP", "value":55}]},
             {"label":"Last 30 Days", "data":[{"pump":"Reglo", "value":2},{"pump":"B/T", "value":2},{"pump":"IPC", "value":23},{"pump":"LS/IP", "value":76}]},
             {"label":"Year to Date", "data":[{"pump":"Reglo", "value":7},{"pump":"B/T", "value":7},{"pump":"IPC", "value":12},{"pump":"LS/IP", "value":56}]}
+        ],
+        "table_info":[
+            {"family":"B/T", "pump":"BT321", "sku":"77112-10", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"B/T", "pump":"BT321-HP220", "sku":"77112-10", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"LS/IP", "pump":"IP650", "sku":"77112-9", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"LS/IP", "pump":"LS600", "sku":"77112-8", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"LS/IP", "pump":"LS250", "sku":"77112-7", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"LS/IP", "pump":"LS100", "sku":"77112-6", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"Reglo", "pump":"Piston", "sku":"77112-5", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"Reglo", "pump":"Casette", "sku":"77112-4", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"Reglo", "pump":"Gear", "sku":"77112-3", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"Reglo", "pump":"Miniflex", "sku":"77112-2", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"LS/IP", "pump":"PistonQ1800", "sku":"77112-1", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"LS/IP", "pump":"Gear 6000", "sku":"77112-0", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"IPC", "pump":"IPC 8cc", "sku":"77112-11", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
+            {"family":"IPC", "pump":"IPC-N 8cc", "sku":"77112-12", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"}
         ]
     }
 }
