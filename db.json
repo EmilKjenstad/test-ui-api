@@ -114,10 +114,10 @@
     "dashboard_general": {
         "software_downloads": [{ "v": "v2.25", "downloads": 18 },{ "v": "v2.24", "downloads": 13 },{ "v": "v2.23", "downloads": 9 },{ "v": "v2.22", "downloads": 5 },{ "v": "v2.21", "downloads":4 }],
         "period_production": [
-            {"label":"Today", "data":[{"pump":"Reglo", "value":1},{"pump":"B/T", "value":8},{"pump":"IPC", "value":4},{"pump":"LS/IP", "value":5}]},
+            {"label":"Last 24 Hours", "data":[{"pump":"Reglo", "value":1},{"pump":"B/T", "value":8},{"pump":"IPC", "value":4},{"pump":"LS/IP", "value":5}]},
             {"label":"Last 7 Days", "data":[{"pump":"Reglo", "value":60},{"pump":"B/T", "value":28},{"pump":"IPC", "value":30},{"pump":"LS/IP", "value":25}]},
             {"label":"Last 30 Days", "data":[{"pump":"Reglo", "value":102},{"pump":"B/T", "value":99},{"pump":"IPC", "value":123},{"pump":"LS/IP", "value":104}]},
-            {"label":"Year to Date", "data":[{"pump":"Reglo", "value":210},{"pump":"B/T", "value":199},{"pump":"IPC", "value":288},{"pump":"LS/IP", "value":302}]}
+            {"label":"Last 365 Days", "data":[{"pump":"Reglo", "value":210},{"pump":"B/T", "value":199},{"pump":"IPC", "value":288},{"pump":"LS/IP", "value":302}]}
         ],
         "table_info":[
             {"family":"B/T", "pump":"BT321", "sku":"77112-10", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
