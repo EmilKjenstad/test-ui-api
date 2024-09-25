@@ -119,6 +119,13 @@
             {"label":"Last 30 Days", "data":[{"pump":"Reglo", "value":102},{"pump":"B/T", "value":99},{"pump":"IPC", "value":123},{"pump":"LS/IP", "value":104}]},
             {"label":"Last 365 Days", "data":[{"pump":"Reglo", "value":210},{"pump":"B/T", "value":199},{"pump":"IPC", "value":288},{"pump":"LS/IP", "value":302}]}
         ],
+        "recent_production": [
+            {"timestamp":"June 26th, 12:51PM","model":"BT321","sku":"77112-10","serialNumber":"A12345678","MAC_address":"F8:DC:7A:e9:f1:4f","device_id":"80:31:34:65:21:45","family":"B/T","SW_version":"v3.0.0","CB_FW":"3.02.003-3","MCB_FW":311,"CB_HW_version":1},
+            {"timestamp":"June 26th, 12:40PM","model":"LS600","sku":"77112-11","serialNumber":"A12345677","MAC_address":"F8:DC:7A:e9:f1:4f","device_id":"80:31:34:65:21:45","family":"LS/IP","SW_version":"v3.0.0","CB_FW":"3.02.003-3","MCB_FW":311,"CB_HW_version":1},
+            {"timestamp":"June 26th, 11:25AM","model":"IP650","sku":"77112-12","serialNumber":"A12345676","MAC_address":"F8:DC:7A:e9:f1:4f","device_id":"80:31:34:65:21:45","family":"LS/IP","SW_version":"v3.0.0","CB_FW":"3.02.003-3","MCB_FW":311,"CB_HW_version":1},
+            {"timestamp":"June 26th, 11:13AM","model":"Gear","sku":"77112-13","serialNumber":"A12345675","MAC_address":"F8:DC:7A:e9:f1:4f","device_id":"80:31:34:65:21:45","family":"Reglo","SW_version":"v3.0.0","CB_FW":"3.02.003-3","MCB_FW":311,"CB_HW_version":1},
+            {"timestamp":"June 26th, 10:56AM","model":"PistonQ1600","sku":"77112-14","serialNumber":"A12345674","MAC_address":"F8:DC:7A:e9:f1:4f","device_id":"80:31:34:65:21:45","family":"LS/IP","SW_version":"v3.0.0","CB_FW":"3.02.003-3","MCB_FW":311,"CB_HW_version":1}
+        ],
         "table_info":[
             {"family":"B/T", "pump":"BT321", "sku":"77112-10", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
             {"family":"B/T", "pump":"BT321-HP220", "sku":"77112-10", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
