@@ -51,6 +51,41 @@
             "labels": ["May","June","July","August","September","October"],
             "datasets": [{"label":"v2.24", "data": [13, 22, 15, 7, 0, null]},{"label":"v2.25", "data": [null, null, 0, 7, 14, 17]}]
         },
+        "MF_Live": {
+            "labels": [
+                "November",
+                "December",
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October"
+              ],
+              "datasets": [
+                  {
+                      "label": "Registered pumps",
+                      "data": [
+                        50,
+                        57,
+                        54,
+                        48,
+                        55,
+                        67,
+                        50,
+                        57,
+                        54,
+                        48,
+                        55,
+                        67
+                      ]
+                  }
+              ]
+          },
         "table_info":[
             {"family":"B/T", "pump":"BT321", "sku":"77112-10", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
             {"family":"B/T", "pump":"BT321-HP220", "sku":"77112-10", "mcb":255, "cb":"3.02.001-3", "SW_version":"2.25"},
