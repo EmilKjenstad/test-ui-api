@@ -4,393 +4,72 @@
       {
         "label": "Last 24 Hours",
         "data": [
-          {
-            "pump": "Reglo",
-            "value": 11
-          },
-          {
-            "pump": "B/T",
-            "value": 8
-          },
-          {
-            "pump": "IPC",
-            "value": 4
-          },
-          {
-            "pump": "LS/IP",
-            "value": 5
-          }
+          { "pump": "Reglo", "value": 11 },
+          { "pump": "B/T", "value": 8 },
+          { "pump": "IPC", "value": 4 },
+          { "pump": "LS/IP", "value": 5 }
         ]
       },
       {
         "label": "Last 7 Days",
         "data": [
-          {
-            "pump": "Reglo",
-            "value": 60
-          },
-          {
-            "pump": "B/T",
-            "value": 28
-          },
-          {
-            "pump": "IPC",
-            "value": 30
-          },
-          {
-            "pump": "LS/IP",
-            "value": 25
-          }
+          { "pump": "Reglo", "value": 60 },
+          { "pump": "B/T", "value": 28 },
+          { "pump": "IPC", "value": 30 },
+          { "pump": "LS/IP", "value": 25 }
         ]
       },
       {
         "label": "Last 30 Days",
         "data": [
-          {
-            "pump": "Reglo",
-            "value": 102
-          },
-          {
-            "pump": "B/T",
-            "value": 99
-          },
-          {
-            "pump": "IPC",
-            "value": 123
-          },
-          {
-            "pump": "LS/IP",
-            "value": 104
-          }
+          { "pump": "Reglo", "value": 102 },
+          { "pump": "B/T", "value": 99 },
+          { "pump": "IPC", "value": 123 },
+          { "pump": "LS/IP", "value": 104 }
         ]
       },
       {
         "label": "Last 365 Days",
         "data": [
-          {
-            "pump": "Reglo",
-            "value": 210
-          },
-          {
-            "pump": "B/T",
-            "value": 199
-          },
-          {
-            "pump": "IPC",
-            "value": 288
-          },
-          {
-            "pump": "LS/IP",
-            "value": 302
-          }
+          { "pump": "Reglo", "value": 210 },
+          { "pump": "B/T", "value": 199 },
+          { "pump": "IPC", "value": 288 },
+          { "pump": "LS/IP", "value": 302 }
         ]
       }
     ],
     "recent_production": [
       {
         "headers": [
-          {
-            "label": "Timestamp",
-            "value": "June 26th, 12:51PM"
-          },
-          {
-            "label": "Pump Model",
-            "value": "BT321"
-          },
-          {
-            "label": "SKU",
-            "value": "77112-5"
-          },
-          {
-            "label": "Serial Number",
-            "value": "A12345678"
-          }
+          { "label": "Timestamp", "value": "June 26th, 12:51PM" },
+          { "label": "Pump Model", "value": "BT321" },
+          { "label": "SKU", "value": "77112-5" },
+          { "label": "Serial Number", "value": "A12345678" }
         ],
         "contents": [
           {
             "header": "Device Identity",
             "data": [
-              {
-                "label": "Pump Model",
-                "value": "BT321"
-              },
-              {
-                "label": "SKU",
-                "value": "77112-5"
-              },
-              {
-                "label": "Serial Number",
-                "value": "A12345678"
-              },
-              {
-                "label": "Device ID",
-                "value": "80:31:34:65:21:45"
-              }
+              { "label": "Pump Model", "value": "BT321" },
+              { "label": "SKU", "value": "77112-5" },
+              { "label": "Serial Number", "value": "A12345678" },
+              { "label": "Device ID", "value": "80:31:34:65:21:45" }
             ]
           },
           {
             "header": "Device Network & Hardware",
             "data": [
-              {
-                "label": "MAC Address",
-                "value": "F8:DC:7A:e9:f1:4f"
-              },
-              {
-                "label": "Family",
-                "value": "B/T"
-              }
+              { "label": "MAC Address", "value": "F8:DC:7A:e9:f1:4f" },
+              { "label": "Family", "value": "B/T" }
             ]
           },
           {
             "header": "Firmware & Software Versions",
             "data": [
-              {
-                "label": "SW Version",
-                "value": "v3.0.0"
-              },
-              {
-                "label": "CB FW",
-                "value": "3.02.003-3"
-              },
-              {
-                "label": "MCB FW",
-                "value": "311"
-              },
-              {
-                "label": "CB HW Version",
-                "value": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "headers": [
-          {
-            "label": "Timestamp",
-            "value": "June 26th, 12:51PM"
-          },
-          {
-            "label": "Pump Model",
-            "value": "Gear"
-          },
-          {
-            "label": "SKU",
-            "value": "77112-5"
-          },
-          {
-            "label": "Serial Number",
-            "value": "A12345678"
-          }
-        ],
-        "contents": [
-          {
-            "header": "Device Identity",
-            "data": [
-              {
-                "label": "Pump Model",
-                "value": "Gear"
-              },
-              {
-                "label": "SKU",
-                "value": "77112-5"
-              },
-              {
-                "label": "Serial Number",
-                "value": "A12345678"
-              },
-              {
-                "label": "Device ID",
-                "value": "80:31:34:65:21:45"
-              }
-            ]
-          },
-          {
-            "header": "Device Network & Hardware",
-            "data": [
-              {
-                "label": "MAC Address",
-                "value": "F8:DC:7A:e9:f1:4f"
-              },
-              {
-                "label": "Family",
-                "value": "Reglo"
-              }
-            ]
-          },
-          {
-            "header": "Firmware & Software Versions",
-            "data": [
-              {
-                "label": "SW Version",
-                "value": "v3.0.0"
-              },
-              {
-                "label": "CB FW",
-                "value": "3.02.003-3"
-              },
-              {
-                "label": "MCB FW",
-                "value": "311"
-              },
-              {
-                "label": "CB HW Version",
-                "value": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "headers": [
-          {
-            "label": "Timestamp",
-            "value": "June 26th, 12:51PM"
-          },
-          {
-            "label": "Pump Model",
-            "value": "IP650"
-          },
-          {
-            "label": "SKU",
-            "value": "77112-5"
-          },
-          {
-            "label": "Serial Number",
-            "value": "A12345678"
-          }
-        ],
-        "contents": [
-          {
-            "header": "Device Identity",
-            "data": [
-              {
-                "label": "Pump Model",
-                "value": "IP650"
-              },
-              {
-                "label": "SKU",
-                "value": "77112-5"
-              },
-              {
-                "label": "Serial Number",
-                "value": "A12345678"
-              },
-              {
-                "label": "Device ID",
-                "value": "80:31:34:65:21:45"
-              }
-            ]
-          },
-          {
-            "header": "Device Network & Hardware",
-            "data": [
-              {
-                "label": "MAC Address",
-                "value": "F8:DC:7A:e9:f1:4f"
-              },
-              {
-                "label": "Family",
-                "value": "LS/IP"
-              }
-            ]
-          },
-          {
-            "header": "Firmware & Software Versions",
-            "data": [
-              {
-                "label": "SW Version",
-                "value": "v3.0.0"
-              },
-              {
-                "label": "CB FW",
-                "value": "3.02.003-3"
-              },
-              {
-                "label": "MCB FW",
-                "value": "311"
-              },
-              {
-                "label": "CB HW Version",
-                "value": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "headers": [
-          {
-            "label": "Timestamp",
-            "value": "June 26th, 12:51PM"
-          },
-          {
-            "label": "Pump Model",
-            "value": "LS600"
-          },
-          {
-            "label": "SKU",
-            "value": "77112-11"
-          },
-          {
-            "label": "Serial Number",
-            "value": "A12345678"
-          }
-        ],
-        "contents": [
-          {
-            "header": "Device Identity",
-            "data": [
-              {
-                "label": "Pump Model",
-                "value": "LS600"
-              },
-              {
-                "label": "SKU",
-                "value": "77112-11"
-              },
-              {
-                "label": "Serial Number",
-                "value": "A12345678"
-              },
-              {
-                "label": "Device ID",
-                "value": "80:31:34:65:21:45"
-              }
-            ]
-          },
-          {
-            "header": "Device Network & Hardware",
-            "data": [
-              {
-                "label": "MAC Address",
-                "value": "F8:DC:7A:e9:f1:4f"
-              },
-              {
-                "label": "Family",
-                "value": "LS/IP"
-              }
-            ]
-          },
-          {
-            "header": "Firmware & Software Versions",
-            "data": [
-              {
-                "label": "SW Version",
-                "value": "v3.0.0"
-              },
-              {
-                "label": "CB FW",
-                "value": "3.02.003-3"
-              },
-              {
-                "label": "MCB FW",
-                "value": "311"
-              },
-              {
-                "label": "CB HW Version",
-                "value": 1
-              }
+              { "label": "SW Version", "value": "v3.0.0" },
+              { "label": "CB FW", "value": "3.02.003-3" },
+              { "label": "MCB FW", "value": 311 },
+              { "label": "CB HW Version", "value": 1 }
             ]
           }
         ]
@@ -399,36 +78,14 @@
     "ota_download": {
       "labels": ["May", "June", "July", "August", "September", "October"],
       "datasets": [
-        {
-          "label": "v2.24",
-          "data": [13, 22, 15, 7, 0, null]
-        },
-        {
-          "label": "v2.25",
-          "data": [null, null, 0, 7, 14, 17]
-        }
+        { "label": "v2.24", "data": [13, 22, 15, 7, 0, null] },
+        { "label": "v2.25", "data": [null, null, 0, 7, 14, 17] }
       ]
     },
     "MF_Live": {
-      "labels": [
-        "November",
-        "December",
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October"
-      ],
+      "labels": ["November", "December", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October"],
       "datasets": [
-        {
-          "label": "Registered pumps",
-          "data": [50, 57, 54, 48, 55, 67, 50, 57, 54, 48, 55, 67]
-        }
+        { "label": "Registered pumps", "data": [50, 57, 54, 48, 55, 67, 50, 57, 54, 48, 55, 67] }
       ]
     }
   },
@@ -480,19 +137,6 @@
       "MAC_address": "F8:DC:7A:e9:f1:4f",
       "device_id": "80:31:34:65:21:45",
       "family": "Reglo",
-      "SW_version": "v3.0.0",
-      "CB_FW": "3.02.003-3",
-      "MCB_FW": 311,
-      "CB_HW_version": 1
-    },
-    {
-      "timestamp": "June 26th, 10:56AM",
-      "model": "PistonQ1600",
-      "sku": "77112-14",
-      "serialNumber": "A12345674",
-      "MAC_address": "F8:DC:7A:e9:f1:4f",
-      "device_id": "80:31:34:65:21:45",
-      "family": "LS/IP",
       "SW_version": "v3.0.0",
       "CB_FW": "3.02.003-3",
       "MCB_FW": 311,
