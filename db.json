@@ -39,42 +39,182 @@
       }
     ],
     "recent_production": [
-      {
-        "headers": [
-          { "label": "Timestamp", "value": "June 26th, 12:51PM" },
-          { "label": "Pump Model", "value": "BT321" },
-          { "label": "SKU", "value": "77112-5" },
-          { "label": "Serial Number", "value": "A12345678" }
-        ],
-        "contents": [
-          {
-            "header": "Device Identity",
-            "data": [
-              { "label": "Pump Model", "value": "BT321" },
-              { "label": "SKU", "value": "77112-5" },
-              { "label": "Serial Number", "value": "A12345678" },
-              { "label": "Device ID", "value": "80:31:34:65:21:45" }
-            ]
-          },
-          {
-            "header": "Device Network & Hardware",
-            "data": [
-              { "label": "MAC Address", "value": "F8:DC:7A:e9:f1:4f" },
-              { "label": "Family", "value": "B/T" }
-            ]
-          },
-          {
-            "header": "Firmware & Software Versions",
-            "data": [
-              { "label": "SW Version", "value": "v3.0.0" },
-              { "label": "CB FW", "value": "3.02.003-3" },
-              { "label": "MCB FW", "value": 311 },
-              { "label": "CB HW Version", "value": 1 }
-            ]
-          }
-        ]
-      }
+  {
+    headers: [
+      { label: 'Timestamp', value: 'June 26th, 12:51PM' },
+      { label: 'Pump Model', value: 'BT321' },
+      { label: 'SKU', value: '77112-5' },
+      { label: 'Serial Number', value: 'A12345678' },
     ],
+    contents: [
+      {
+        header: 'Device Identity',
+        data: [
+          { label: 'Pump Model', value: 'BT321' },
+          { label: 'SKU', value: '77112-5' },
+          { label: 'Serial Number', value: 'A12345678' },
+          { label: 'Device ID', value: '80:31:34:65:21:45' },
+        ],
+      },
+      {
+        header: 'Device Network & Hardware',
+        data: [
+          { label: 'MAC Address', value: 'F8:DC:7A:e9:f1:4f' },
+          { label: 'Family', value: 'B/T' },
+        ],
+      },
+      {
+        header: 'Firmware & Software Versions',
+        data: [
+          { label: 'SW Version', value: 'v3.0.0' },
+          { label: 'CB FW', value: '3.02.003-3' },
+          { label: 'MCB FW', value: '311' },
+          { label: 'CB HW Version', value: 1 },
+        ],
+      },
+    ],
+  },
+  {
+    headers: [
+      { label: 'Timestamp', value: 'June 26th, 12:51PM' },
+      { label: 'Pump Model', value: 'Gear' },
+      { label: 'SKU', value: '77112-5' },
+      { label: 'Serial Number', value: 'A12345678' },
+    ],
+    contents: [
+      {
+        header: 'Device Identity',
+        data: [
+          { label: 'Pump Model', value: 'Gear' },
+          { label: 'SKU', value: '77112-5' },
+          { label: 'Serial Number', value: 'A12345678' },
+          { label: 'Device ID', value: '80:31:34:65:21:45' },
+        ],
+      },
+      {
+        header: 'Device Network & Hardware',
+        data: [
+          { label: 'MAC Address', value: 'F8:DC:7A:e9:f1:4f' },
+          { label: 'Family', value: 'Reglo' },
+        ],
+      },
+      {
+        header: 'Firmware & Software Versions',
+        data: [
+          { label: 'SW Version', value: 'v3.0.0' },
+          { label: 'CB FW', value: '3.02.003-3' },
+          { label: 'MCB FW', value: '311' },
+          { label: 'CB HW Version', value: 1 },
+        ],
+      },
+    ],
+  },
+  {
+    headers: [
+      { label: 'Timestamp', value: 'June 26th, 12:51PM' },
+      { label: 'Pump Model', value: 'IP650' },
+      { label: 'SKU', value: '77112-5' },
+      { label: 'Serial Number', value: 'A12345678' },
+    ],
+    contents: [
+      {
+        header: 'Device Identity',
+        data: [
+          { label: 'Pump Model', value: 'IP650' },
+          { label: 'SKU', value: '77112-5' },
+          { label: 'Serial Number', value: 'A12345678' },
+          { label: 'Device ID', value: '80:31:34:65:21:45' },
+        ],
+      },
+      {
+        header: 'Device Network & Hardware',
+        data: [
+          { label: 'MAC Address', value: 'F8:DC:7A:e9:f1:4f' },
+          { label: 'Family', value: 'LS/IP' },
+        ],
+      },
+      {
+        header: 'Firmware & Software Versions',
+        data: [
+          { label: 'SW Version', value: 'v3.0.0' },
+          { label: 'CB FW', value: '3.02.003-3' },
+          { label: 'MCB FW', value: '311' },
+          { label: 'CB HW Version', value: 1 },
+        ],
+      },
+    ],
+  },
+  {
+    headers: [
+      { label: 'Timestamp', value: 'June 26th, 12:51PM' },
+      { label: 'Pump Model', value: 'LS600' },
+      { label: 'SKU', value: '77112-11' },
+      { label: 'Serial Number', value: 'A12345678' },
+    ],
+    contents: [
+      {
+        header: 'Device Identity',
+        data: [
+          { label: 'Pump Model', value: 'LS600' },
+          { label: 'SKU', value: '77112-11' },
+          { label: 'Serial Number', value: 'A12345678' },
+          { label: 'Device ID', value: '80:31:34:65:21:45' },
+        ],
+      },
+      {
+        header: 'Device Network & Hardware',
+        data: [
+          { label: 'MAC Address', value: 'F8:DC:7A:e9:f1:4f' },
+          { label: 'Family', value: 'LS/IP' },
+        ],
+      },
+      {
+        header: 'Firmware & Software Versions',
+        data: [
+          { label: 'SW Version', value: 'v3.0.0' },
+          { label: 'CB FW', value: '3.02.003-3' },
+          { label: 'MCB FW', value: '311' },
+          { label: 'CB HW Version', value: 1 },
+        ],
+      },
+    ],
+  },
+  {
+    headers: [
+      { label: 'Timestamp', value: 'June 26th, 12:51PM' },
+      { label: 'Pump Model', value: 'LS600' },
+      { label: 'SKU', value: '77112-11' },
+      { label: 'Serial Number', value: 'A12345678' },
+    ],
+    contents: [
+      {
+        header: 'Device Identity',
+        data: [
+          { label: 'Pump Model', value: 'LS600' },
+          { label: 'SKU', value: '77112-11' },
+          { label: 'Serial Number', value: 'A12345678' },
+          { label: 'Device ID', value: '80:31:34:65:21:45' },
+        ],
+      },
+      {
+        header: 'Device Network & Hardware',
+        data: [
+          { label: 'MAC Address', value: 'F8:DC:7A:e9:f1:4f' },
+          { label: 'Family', value: 'LS/IP' },
+        ],
+      },
+      {
+        header: 'Firmware & Software Versions',
+        data: [
+          { label: 'SW Version', value: 'v3.0.0' },
+          { label: 'CB FW', value: '3.02.003-3' },
+          { label: 'MCB FW', value: '311' },
+          { label: 'CB HW Version', value: 1 },
+        ],
+      },
+    ],
+  },
+],
     "ota_download": {
       "labels": ["May", "June", "July", "August", "September", "October"],
       "datasets": [
